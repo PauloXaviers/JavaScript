@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
-</head>
-<body>
-    
-
-    <script>
-        
-        let firstNumber = prompt('Digite o primeiro numero')
+let firstNumber = prompt('Digite o primeiro numero')
         let secondNumber = prompt('Digite o segundo numero')
 
         firstNumber = Number(firstNumber)
@@ -27,7 +15,3 @@
         alert('A multiplicação é: ' + multi)
         alert('A divisão é: ' + div)
         alert('O resto da divisão é: ' + restDiv)
-
-    </script>
-</body>
-</html>

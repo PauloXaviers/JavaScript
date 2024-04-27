@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-bt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media do aluno</title>
-</head>
-<body>
-    
 
 
-    <script>
-
-        let name = prompt("Digite o seu nome:")
+let name = prompt("Digite o seu nome:")
 
         let n1 = prompt('Informe a nota da sua primeira prova')
         let n2 = prompt('Informe a nota da sua segunda prova')
@@ -26,11 +15,6 @@
             alert('Parabéns ' + name + '! Você foi aprovado para mais um semestre na faculdade. Sua média foi de: ' + avarege)
 
         } else {
-           alert('Olá' + name + '! Infelizmente a sua média não foi o sufuciente para avançar de semestre. Ela foi de: ' + avarege + ' Estude para a prova de recuperação parar tentar alcaçar a média')
+           alert('Olá ' + name+ '! Infelizmente a sua média não foi o sufuciente para avançar de semestre. Ela foi de: ' + avarege + ', estude para a prova de recuperação parar tentar alcançar a média')
 
         }
-
-
-    </script>
-</body>
-</html>
