@@ -1,4 +1,4 @@
-let firstNumber = prompt('Digite o primeiro numero')
+        let firstNumber = prompt('Digite o primeiro numero')
         let secondNumber = prompt('Digite o segundo numero')
 
         firstNumber = Number(firstNumber)
