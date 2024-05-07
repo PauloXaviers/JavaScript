@@ -8,7 +8,7 @@ const patients = [
 
     {
         name: 'Carlos Eduardo',
-        age: 37,
+        age: 35,
         weight: 100,
         height: 180,
     },

@@ -7,7 +7,7 @@ const list =[
     },
 
     {
-        name: 'Antonio Silva',
+        name: 'Cilene Costa',
         prova01: 6.7,
         prova02: 8,
     },
