@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(287.56deg, #c2e9fb 0%, #a1c4fd 100%);
+    font-size: 1.6rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, input, button{
+    font-family: "DM Sans", sans-serif;
+}
+
+main{
+    background: #fff;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: min(42.8rem, 90%);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    text-align: center;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+}
+
+input{
+    background-color: #dce2e9;
+    width: 8rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button{
+    background-color: #7879f1;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+}
+
+button:hover{
+    background-color: #5d5dc0;
+    transition: background .3s;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+/*fim screen 1*/
+
+
+
+/*começo screen 2*/
+
+h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+   
+}
+
+p{
+    font-size: 1.5rem;
+    color: #34355b;
+}
+
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+}
+
+input{
+    background-color: #dce2e9;
+    width: 8rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+button{
+    background-color: #7879f1;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5d5dc0;
+    transition: background .3s;
+}
+
+
+/*fim screen 2*/
+
+h2{
+    font-size: 2.4rem;  
+    font-weight: normal;  
+    margin-bottom: 1.5rem;
+}
+
+.screen2 button{
+    border-radius: .4rem ;
+}
+
+

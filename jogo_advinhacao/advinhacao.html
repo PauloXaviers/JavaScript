@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <div class="screen1"> <!--primeira tela-->
+            <h2>Jogo da Adivinhação</h2>
+            <p>Advinhe o número entre 0 e 10</p>
+            
+            <form>
+                <input id="inputNumber" type="number">
+                <button id="btnTry">Tentar</button>
+            </form>
+        </div><!--fim primeira tela-->
 
 
-    <script src="advinhacao.js"></script>
+        <div class="screen2 hide"> <!--segunda tela-->
+            <h2>Acertou em 3 tentaivas</h2>
+            <button id="btnReset">Tente novamente</button>
+        </div><!--fim segunda tela-->
+            
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
