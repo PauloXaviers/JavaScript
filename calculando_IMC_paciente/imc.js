@@ -1,31 +1,26 @@
-const patients = [
-    {
-        name: 'Paulo Henrique',
-        age: 20,
-        weight: 74,
-        height: 170,
-    },
 
-    {
-        name: 'Carlos Eduardo',
-        age: 35,
-        weight: 100,
-        height: 180,
-    },
+const form = document.querySelector('form')
+const inputWeight = document.querySelector('#weight')
+const inputHeight = document.querySelector('#height') 
 
-    {
-        name: 'Livia Lima',
-        age: 24,
-        weight: 85,
-        height: 160,
-    },
-]
+const modalWrapper = document.querySelector('.modal-wrapper')
+const modalMessage = document.querySelector('.modal .title span')
+const modalBtnClose = document.querySelector('.modal button.close')
 
-function printPatientIMC (patient){
-    return `O paciente ${patient.name} possui o IMC de ${(patient.weight / ((patient.height / 100) ** 2)).toFixed(2)}`
+form.onsubmit = event => {
+    event.preventDefault()
+
+    const weight = inputWeight.value
+    const height = inputHeight.value
+
+    const result = IMC(weight, height)
+    const message = `Seu IMC é de ${result}`
+    
+    modalMessage.innerText = message
+    modalWrapper.classList.add('open')
+    
 }
 
-for (let patient of patients){
-    let IMCmessage = printPatientIMC(patient)
-    alert(IMCmessage)
+function IMC(weight, height) {
+    return (weight / ((height / 100) ** 2)).toFixed(2)
 }
